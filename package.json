@@ -1,0 +1,16 @@
+{
+  "name": "new-try",
+  "version": "1.0.0",
+  "description": "Simple app",
+  "main": "apps.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^5.2.0",
+    "mocha": "^11.1.0"
+  }
+}
