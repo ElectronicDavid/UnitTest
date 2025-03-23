@@ -1,5 +1,5 @@
 import {assert ,expect, should} from 'chai'; 
-import {Hello, Suma, canDrinkInCol, orderArry,isPalindrome}  from '../apps.js'; 
+import {Hello, Suma, canDrinkInCol, orderArry, HelloJaveriana}  from '../apps.js'; 
 should(); 
 
 describe('Units Testing with Chai', function(){
@@ -36,12 +36,8 @@ describe('Units Testing with Chai', function(){
         orderArry(numbers).should.not.equal([ 1, 3, 4, 5, 9 ]);
     })
 
-    it('Anita lava la tina should return true', function(){
-        assert.equal(isPalindrome("Anita lava la tina"),true);
-    })
-
-    it('Hello World should return false', function(){
-        assert.equal(isPalindrome("Hello World"),false);
+    it('HelloJaveriana ', function(){
+        assert.equal(HelloJaveriana(),"Hola Compañeros");
     })
 
 })

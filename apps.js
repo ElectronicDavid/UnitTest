@@ -1,27 +1,24 @@
 const Hello= () => {
-        return 'hello';
+    return 'hello';
 }
 
 function Suma (a,b) {
-    return a + b;
+return a + b;
 } 
 
 function canDrinkInCol(year){
-    if(year < 18){
-        return false;
-    }
-    else return true;
+if(year < 18){
+    return false;
+}
+else return true;
 } 
 
 function orderArry(arr) {
-    return arr.sort((a, b) => a - b); 
+return arr.sort((a, b) => a - b); 
 }
 
-function isPalindrome(text) {
-    let clean = text.toLowerCase().replace(/[^a-z0-9]/g, ""); // Convertir a minúsculas y eliminar caracteres especiales
-    let invested = clean.split("").reverse().join(""); // Invertir la cadena
-    return clean === invested;
+function HelloJaveriana(){
+    return "Hola Compañeros";
 }
 
-export {Hello, Suma, canDrinkInCol, orderArry,isPalindrome};
-
+export {Hello, Suma, canDrinkInCol, orderArry,isPalindrome, HelloJaveriana};
