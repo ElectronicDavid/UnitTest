@@ -21,4 +21,9 @@ function HelloJaveriana(){
     return "Hola Compañeros";
 }
 
-export {Hello, Suma, canDrinkInCol, orderArry,isPalindrome, HelloJaveriana};
+function Multiplicacion(a,b){
+    return a*b;
+}
+
+
+export {Hello, Suma, canDrinkInCol, orderArry, HelloJaveriana, Multiplicacion};

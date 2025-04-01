@@ -1,5 +1,5 @@
 import {assert ,expect, should} from 'chai'; 
-import {Hello, Suma, canDrinkInCol, orderArry, HelloJaveriana}  from '../apps.js'; 
+import {Hello, Suma, canDrinkInCol, orderArry, HelloJaveriana,Multiplicacion }  from '../apps.js'; 
 should(); 
 
 describe('Units Testing with Chai', function(){
@@ -40,4 +40,7 @@ describe('Units Testing with Chai', function(){
         assert.equal(HelloJaveriana(),"Hola Compañeros");
     })
 
+    it('6*6 = 36', function(){
+        assert.equal(Multiplicacion(6,6),36);
+    })
 })
