@@ -1,10 +1,29 @@
 const Hello= () => {
-        return 'hello';
+    return 'hello';
 }
 
 function Suma (a,b) {
-    return a + b;
+return a + b;
 } 
 
-export {Hello, Suma};
+function canDrinkInCol(year){
+if(year < 18){
+    return false;
+}
+else return true;
+} 
 
+function orderArry(arr) {
+return arr.sort((a, b) => a - b); 
+}
+
+function HelloJaveriana(){
+    return "Hola Compañeros";
+}
+
+function Multiplicacion(a,b){
+    return a*b;
+}
+
+
+export {Hello, Suma, canDrinkInCol, orderArry, HelloJaveriana, Multiplicacion};
